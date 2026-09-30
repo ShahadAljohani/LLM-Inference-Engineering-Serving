@@ -1,0 +1,244 @@
+{
+  "runs": [
+    {
+      "timestamp": 1788432217,
+      "base_url": "http://localhost:8000",
+      "model": "PASTE-YOUR-LOCKED-MODEL-ID",
+      "requests_per_level": 20,
+      "max_tokens": 128,
+      "prompt_file": "prompts.txt",
+      "levels": [
+        {
+          "concurrency": 1,
+          "tokens_per_s": 0.0,
+          "ttft_p50_s": null,
+          "ttft_p95_s": null,
+          "latency_p95_s": null,
+          "errors": 20,
+          "ok": 0,
+          "wall_s": 0.04
+        },
+        {
+          "concurrency": 2,
+          "tokens_per_s": 0.0,
+          "ttft_p50_s": null,
+          "ttft_p95_s": null,
+          "latency_p95_s": null,
+          "errors": 20,
+          "ok": 0,
+          "wall_s": 0.037
+        },
+        {
+          "concurrency": 4,
+          "tokens_per_s": 0.0,
+          "ttft_p50_s": null,
+          "ttft_p95_s": null,
+          "latency_p95_s": null,
+          "errors": 20,
+          "ok": 0,
+          "wall_s": 0.032
+        },
+        {
+          "concurrency": 8,
+          "tokens_per_s": 0.0,
+          "ttft_p50_s": null,
+          "ttft_p95_s": null,
+          "latency_p95_s": null,
+          "errors": 20,
+          "ok": 0,
+          "wall_s": 0.037
+        },
+        {
+          "concurrency": 16,
+          "tokens_per_s": 0.0,
+          "ttft_p50_s": null,
+          "ttft_p95_s": null,
+          "latency_p95_s": null,
+          "errors": 20,
+          "ok": 0,
+          "wall_s": 0.038
+        }
+      ]
+    },
+    {
+      "timestamp": 1788432331,
+      "base_url": "http://localhost:8000",
+      "model": "PASTE-YOUR-LOCKED-MODEL-ID",
+      "requests_per_level": 20,
+      "max_tokens": 128,
+      "prompt_file": "prompts.txt",
+      "levels": [
+        {
+          "concurrency": 1,
+          "tokens_per_s": 0.0,
+          "ttft_p50_s": null,
+          "ttft_p95_s": null,
+          "latency_p95_s": null,
+          "errors": 20,
+          "ok": 0,
+          "wall_s": 0.039
+        },
+        {
+          "concurrency": 2,
+          "tokens_per_s": 0.0,
+          "ttft_p50_s": null,
+          "ttft_p95_s": null,
+          "latency_p95_s": null,
+          "errors": 20,
+          "ok": 0,
+          "wall_s": 0.037
+        },
+        {
+          "concurrency": 4,
+          "tokens_per_s": 0.0,
+          "ttft_p50_s": null,
+          "ttft_p95_s": null,
+          "latency_p95_s": null,
+          "errors": 20,
+          "ok": 0,
+          "wall_s": 0.036
+        },
+        {
+          "concurrency": 8,
+          "tokens_per_s": 0.0,
+          "ttft_p50_s": null,
+          "ttft_p95_s": null,
+          "latency_p95_s": null,
+          "errors": 20,
+          "ok": 0,
+          "wall_s": 0.04
+        },
+        {
+          "concurrency": 16,
+          "tokens_per_s": 0.0,
+          "ttft_p50_s": null,
+          "ttft_p95_s": null,
+          "latency_p95_s": null,
+          "errors": 20,
+          "ok": 0,
+          "wall_s": 0.039
+        }
+      ]
+    },
+    {
+      "timestamp": 1788432568,
+      "base_url": "http://localhost:8000",
+      "model": "PASTE-YOUR-LOCKED-MODEL-ID",
+      "requests_per_level": 20,
+      "max_tokens": 128,
+      "prompt_file": "prompts.txt",
+      "levels": [
+        {
+          "concurrency": 1,
+          "tokens_per_s": 0.0,
+          "ttft_p50_s": null,
+          "ttft_p95_s": null,
+          "latency_p95_s": null,
+          "errors": 20,
+          "ok": 0,
+          "wall_s": 0.05
+        },
+        {
+          "concurrency": 2,
+          "tokens_per_s": 0.0,
+          "ttft_p50_s": null,
+          "ttft_p95_s": null,
+          "latency_p95_s": null,
+          "errors": 20,
+          "ok": 0,
+          "wall_s": 0.051
+        },
+        {
+          "concurrency": 4,
+          "tokens_per_s": 0.0,
+          "ttft_p50_s": null,
+          "ttft_p95_s": null,
+          "latency_p95_s": null,
+          "errors": 20,
+          "ok": 0,
+          "wall_s": 0.053
+        },
+        {
+          "concurrency": 8,
+          "tokens_per_s": 0.0,
+          "ttft_p50_s": null,
+          "ttft_p95_s": null,
+          "latency_p95_s": null,
+          "errors": 20,
+          "ok": 0,
+          "wall_s": 0.062
+        },
+        {
+          "concurrency": 16,
+          "tokens_per_s": 0.0,
+          "ttft_p50_s": null,
+          "ttft_p95_s": null,
+          "latency_p95_s": null,
+          "errors": 20,
+          "ok": 0,
+          "wall_s": 0.066
+        }
+      ]
+    },
+    {
+      "timestamp": 1788432711,
+      "base_url": "http://localhost:8000",
+      "model": "Qwen/Qwen2.5-1.5B-Instruct-AWQ",
+      "requests_per_level": 20,
+      "max_tokens": 128,
+      "prompt_file": "prompts.txt",
+      "levels": [
+        {
+          "concurrency": 1,
+          "tokens_per_s": 78.62,
+          "ttft_p50_s": 0.0532,
+          "ttft_p95_s": 0.0888,
+          "latency_p95_s": 1.6295,
+          "errors": 0,
+          "ok": 20,
+          "wall_s": 25.476
+        },
+        {
+          "concurrency": 2,
+          "tokens_per_s": 158.67,
+          "ttft_p50_s": 0.0539,
+          "ttft_p95_s": 0.0919,
+          "latency_p95_s": 1.5811,
+          "errors": 0,
+          "ok": 20,
+          "wall_s": 12.623
+        },
+        {
+          "concurrency": 4,
+          "tokens_per_s": 275.39,
+          "ttft_p50_s": 0.0617,
+          "ttft_p95_s": 0.1214,
+          "latency_p95_s": 1.7514,
+          "errors": 0,
+          "ok": 20,
+          "wall_s": 7.273
+        },
+        {
+          "concurrency": 8,
+          "tokens_per_s": 454.94,
+          "ttft_p50_s": 0.1533,
+          "ttft_p95_s": 0.2076,
+          "latency_p95_s": 2.0367,
+          "errors": 0,
+          "ok": 20,
+          "wall_s": 4.403
+        },
+        {
+          "concurrency": 16,
+          "tokens_per_s": 683.82,
+          "ttft_p50_s": 0.246,
+          "ttft_p95_s": 0.2499,
+          "latency_p95_s": 2.4308,
+          "errors": 0,
+          "ok": 20,
+          "wall_s": 3.05
+        }
+      ]
+    }
+  ]
+}
