@@ -6,7 +6,6 @@ This project documents a practical exploration of **LLM inference systems**, foc
 
 The work progresses from low-level inference measurements to serving-engine behavior, model quantization, and repeatable performance/capacity benchmarking.
 
-![Architecture](architecture/inference-engineering-architecture.png)
 
 ---
 
