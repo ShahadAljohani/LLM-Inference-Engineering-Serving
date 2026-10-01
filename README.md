@@ -146,8 +146,5 @@ The repository is therefore intended to communicate the **engineering process, s
 
 ---
 
-## Disclaimer
+This repository contains a selected subset of the project files for demonstration and documentation purposes. Some internal implementation and configuration files have been omitted.
 
-This project is a technical learning and portfolio project built around practical LLM inference and serving experiments.
-
-Reported measurements are specific to the tested hardware, model configuration, workload, and serving environment and should not be interpreted as universal performance characteristics.
